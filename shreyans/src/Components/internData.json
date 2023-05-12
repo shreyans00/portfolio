@@ -1,0 +1,23 @@
+[
+    {
+        "company": "SAMSUNG R&D - DELHI",
+        "profile": "Upcoming Summer Intern 2023",
+        "date":"[Yet to be started]",
+        "desc": "",
+        "certi": ""
+    },
+    {
+        "company": "HIPPIEES",
+        "profile": "Technology Analyst Intern",
+        "date":"[Jan'23-Feb'23]",
+        "desc": "<ul class=\"intern-details\"> <li>Refined the website and fixed the bugs utilizing PHP for the backend development and MySQL for the database management.</li> <li>Improved the website's lighthouse performance by 3%, accessibility by 1%, best practices by 1%, and SEO by 2%.</li> <li>Linked local with remote using Filezilla and connect to FTP servers to transfer files and handle queries using phpMyAdmin.</li> </ul>",
+        "certi": ""
+    },
+    {
+        "company": "CHATUR IDEAS",
+        "profile": "Business Development Associate Intern",
+        "date":"[Nov'22-Dec'22]",
+        "desc": "<ul class=\"intern-details\"> <li>Made thorough research on different startups, designed brochures and pitch decks, and analyzed various funding rounds.</li> <li>Worked on the project to connect with startups to assist them in funding, networking, business strategies and pitch deck.</li> <li>Responsible for the coordination and management of the collaboration with E-Cell of different colleges across India.</li> </ul>",
+        "certi": ""
+    }
+]

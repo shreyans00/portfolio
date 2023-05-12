@@ -1,0 +1,34 @@
+[
+    {
+        "title": "EDUCATE BHARAT",
+        "ProjectCat": "E-learning Website",
+        "imag": "ebharat.png",
+        "desc": "<ul class=\"project-details\"> <li>Created a website offering courses, educator details, and additional functionalities of register, login, and logout operations.</li> <li>Applied HTML, CSS and Javascript for frontend and Nodejs, ExpressJS frameworks for backend development.</li> <li>Incorporated Mongodb database with Mongoose library for users to register and Mongodb Atlas for cloud database.</li> <li>Used Bcrypt with 10 salting rounds to hash passwords, Validators to validate email, and JWT for user authentication.</li> </ul>",
+        "link": "https://educate-bharat.netlify.app",
+        "github": "https://github.com/shreyans00/EduBha"
+    },
+    {
+        "title": "HOMI JEHANGIR",
+        "ProjectCat": "Hall Website",
+        "imag": "hjb.png",
+        "desc": "<ul class=\"project-details\"> <li>Built a full-fledged responsive website for HJB Hall which serves as an official hub for all the news and information about the hall.</li> <li>Utilised HTML, CSS and Javascript web technologies for frontend development of the Gallery and header of the Homepage.</li> <li>Added modal, animation, transition & hamburger features and created separate json file for representing structured gallery data.</li> </ul>",
+        "link": "https://hjb.iitkgp.co.in/html/index.html",
+        "github": "https://github.com/HJB-IITKGP/frontEnd"
+    },
+    {
+        "title": "SERVICE HUT",
+        "ProjectCat": "Business Model",
+        "imag": "service.png",
+        "desc": "<ul class=\"project-details\"> <li>Designed a business model to connect registered service providers with consumers through booking on our web application.</li> <li>Segmented the market based on Geographic & Behavioural aspects and specified our target audience and target market.</li> <li>Made a Competitive Landscape, listing our competitors in the market and mentioned Points of Parity and Points of Difference.</li> <li>Analyse and estimated the Cost & Funding requirement and made a thorough Feasibility Analysis based on various factors.</li> </ul>",
+        "link": "https://docs.google.com/presentation/d/1Gbobz7SjdBzK1Ko5BC3SEhMiWlbFWB5x/edit#slide=id.p1",
+        "github": "#"
+    },
+    {
+        "title": "DITCH THE SWITCH",
+        "ProjectCat": "Home Automation System",
+        "imag": "diy.png",
+        "desc": "<ul class=\"project-details\"> <li>Designed a device which keeps track of people entering and leaving a room using two ultrasonic sensors, and turns off the appliances when no one in the room with some cooldown time.</li> <li>Designed a device which keeps track of people entering and leaving a room using two ultrasonic sensors, and turns off the appliances when no one in the room with some cooldown time.</li> <li>The Switching mechanism is controlled by the L293D Motor Drive IC Chip which sets pins to high and low.</li> </ul>",
+        "link": "https://docs.google.com/document/d/11XFrv8rDi5Nk8OgJf-OLQRyvJxjyvDCsu8nY1wldQBs/edit",
+        "github": "#"
+    }
+]
