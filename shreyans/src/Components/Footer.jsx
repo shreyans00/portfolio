@@ -20,26 +20,30 @@ function Footer() {
     <>
       <div className="footer">
         <div className="contact">
-          <h1>Connect with Me</h1>
-          <i className="fab fa-google"> shreyansraj3@gmail.com</i>
-          <br />
-          <i className="fa-solid fa-phone">+91 6205 839 994</i>
-          <div className="footer-icons">
-            <a href="https://www.facebook.com/shreyans.raj.16/">
-              <img src={fb} alt="Facebook" />
-            </a>
-            <a href="https://www.instagram.com/shreyans_8">
-              <img src={insta} alt="Instagram" />
-            </a>
-            <a href="https://twitter.com">
-              <img src={twitter} alt="Twitter" />
-            </a>
-            <a href="https://www.linkedin.com/in/shreyans-9b462524a/">
-              <img src={linkedin} alt="LinkedIn" />
-            </a>
-            <a href="https://github.com/shreyans00">
-              <img src={github} alt="GitHub" />
-            </a>
+          <div className="directCon">
+            <h1>Connect with Me</h1>
+            <i className="fab fa-google"> shreyansraj3@gmail.com</i>
+            <br />
+            <i className="fa fa-phone" aria-hidden="true">
+              +91 6205 839 994
+            </i>
+            <div className="footer-icons">
+              <NavLink to="https://www.facebook.com/shreyans.raj.16/">
+                <img src={fb} alt="Facebook" />
+              </NavLink>
+              <NavLink to="https://www.instagram.com/shreyans_8">
+                <img src={insta} alt="Instagram" />
+              </NavLink>
+              <NavLink to="https://twitter.com">
+                <img src={twitter} alt="Twitter" />
+              </NavLink>
+              <NavLink to="https://www.linkedin.com/in/shreyans-9b462524a/">
+                <img src={linkedin} alt="LinkedIn" />
+              </NavLink>
+              <NavLink to="https://github.com/shreyans00">
+                <img src={github} alt="GitHub" />
+              </NavLink>
+            </div>
           </div>
         </div>
         <div className="query">
