@@ -8,6 +8,9 @@ const EachPor = (props) => {
         <h3 className="profile">{props.portfolio}</h3>
         <h3>{props.date}</h3>
         <div dangerouslySetInnerHTML={{ __html: props.desc }}></div>
+        <a href={props.certi} target="_blank">
+          Certificate
+        </a>
       </div>
     </>
   );

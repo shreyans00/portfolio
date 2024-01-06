@@ -1,6 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap");
+
 /* Variables */
 :root {
-  --font-family: "Roboto", sans-serf;
+  --font-family: "Lora", serif;
   --normal-font: 400;
   --bold-font: 700;
   --bolder-font: 900;
@@ -40,7 +42,7 @@ body {
   background-color: #82e1c0;
   border-radius: 0rem 0.5rem;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
-  font-size: 1.2em;
+  font-size: 1.1em;
   position: sticky;
   inset: 0;
   z-index: 1;
@@ -127,8 +129,9 @@ body {
     position: fixed;
     top: 90px;
     right: 0;
-    width: 30%;
+    width: 50%;
     text-align: center;
+    font-weight: bold;
   }
 
   .nohide li {
@@ -235,6 +238,9 @@ h3 {
 @media screen and (max-width: 600px) {
   .card {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
   }
 }
 
@@ -257,8 +263,8 @@ h3 {
 }
 
 .icon {
-  width: 11.875rem;
-  height: 11.25rem;
+  width: 8rem;
+  height: 8rem;
 }
 
 .icon-card {
@@ -268,12 +274,34 @@ h3 {
   margin: 10px;
 }
 
+.skills-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.boxProf {
+  width: 45%;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+  background-color: #89f1dc;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.boxProf p {
+  font-size: 1.2rem;
+}
+
 .personalSkills {
   display: flex;
   gap: 1.5em;
   flex-wrap: wrap;
   justify-content: center;
-  margin-block: 3.5em;
+  margin-block-end: 3.5em;
 }
 
 .box {
@@ -294,10 +322,36 @@ h3 {
   padding: 0.2em;
 }
 
+@media (max-width: 768px) {
+  .skill-header {
+    font-size: 1.8rem;
+  }
+
+  .icon {
+    width: 7rem;
+    height: 7rem;
+  }
+
+  .boxProf {
+    width: 100%;
+  }
+
+  .boxProf p {
+    font-size: 1.2em;
+  }
+}
+
 /* Competition section */
 
 .Competitions {
   margin-block: 4rem;
+}
+
+.Competitions h1 {
+  text-align: center;
+  color: var(--secondary-color);
+  font-size: 2rem;
+  margin-block-end: 1em;
 }
 
 .each {
@@ -313,6 +367,17 @@ h3 {
 .each img {
   width: 2em;
   height: 1.8em;
+}
+
+@media screen and (max-width: 500px) {
+  .Competitions h1 {
+    font-size: 1.6em;
+  }
+
+  .each {
+    font-size: 1rem;
+    width: 86vw;
+  }
 }
 
 /* Projects section */
@@ -382,6 +447,14 @@ h3 {
   height: 2.5rem;
 }
 
+@media screen and (max-width: 500px) {
+  .projects-title,
+  .internships-title,
+  .por-title {
+    font-size: 1.8rem;
+  }
+}
+
 /* Work Experiences section */
 
 .cardintern,
@@ -391,7 +464,7 @@ h3 {
   box-shadow: 0 5px 15px rgb(1, 143, 67);
   padding: 20px;
   text-align: center;
-  width: 58rem;
+  width: 65rem;
 }
 
 .cardintern h2 {
@@ -415,6 +488,21 @@ h3 {
   font-weight: bold;
 }
 
+@media screen and (max-width: 500px) {
+  .cardintern,
+  .cardpor {
+    width: 88vw;
+  }
+
+  .work {
+    font-size: 0.7em;
+  }
+
+  .profile {
+    font-size: 1rem;
+  }
+}
+
 /* footer section */
 
 .footer {
@@ -425,7 +513,7 @@ h3 {
 }
 
 .contact h1 {
-  font-size: 3.5rem;
+  font-size: 3.5em;
   margin-inline-start: -0.3em;
   margin-block-end: 0.5em;
 }
@@ -499,15 +587,25 @@ h3 {
 @media screen and (max-width: 1000px) {
   .footer {
     flex-direction: column;
+    margin-block-end: 2em;
+  }
+
+  .footer-icons img {
+    padding-inline-end: 0;
+    margin-inline-end: 1em;
   }
 
   .contact h1 {
-    font-size: 3rem;
+    font-size: 2.5em;
+  }
+
+  .contact i {
+    font-size: 1.1em;
   }
 
   .directCon {
     text-align: center;
-    /* margin-block-end: 2rem; */
+    margin-block-end: 2rem;
   }
 
   .query {

@@ -10,6 +10,7 @@ const Competitions = () => {
   return (
     <>
       <div className="Competitions">
+        <h1>Competitions And Academic Achievements</h1>
         <div className="each">
           <img src={codeforces} alt="loading" />
           <span>
@@ -82,6 +83,28 @@ const Competitions = () => {
             Secured State rank <strong>16</strong> in the International Olympiad
             of Science 2018.
           </span>
+        </div>
+        <h1>Non-Academic Achievements</h1>
+        <div className="each">
+          <span>
+            5th position among 18 participating halls in the General
+            Championship of the year 2023 in Hindi Elocution Competition.
+          </span>
+        </div>
+        <div className="each">
+          <span>
+            Runner-up position in Intrahall table tennis competition in the year
+            2022.
+          </span>
+        </div>
+        <div className="each">
+          <span>Member of Interhall Cricket in academic year 2021-22.</span>
+        </div>
+        <div className="each">
+          <span>Spearheaded Illumination event of the year 2022.</span>
+        </div>
+        <div className="each">
+          <span>Served as NCC-EME Cadet for 2 years</span>
         </div>
       </div>
     </>

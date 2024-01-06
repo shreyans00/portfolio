@@ -18,9 +18,9 @@ const Education = () => {
             <h4>
               Department of Electrical Engineering
               <br />
-              Third Year Undergraduate
+              Final Year Undergraduate
               <br />
-              CGPA: 8.19
+              CGPA: 8.1
             </h4>
           </div>
           <img src={kgp} alt="kgp" />
